@@ -1,0 +1,155 @@
+@import 'globle.css';
+.app{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 47px;
+    max-width: 650px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.app1{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    overflow: hidden;
+}
+.TalionNav-second{
+    width: 100vw;
+    height: 100%;
+    z-index: 9999999;
+    position: absolute;
+    bottom: 0;
+    background: #ffffff;
+    overflow-y:hidden;
+}
+.TalionNav-second .close{
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    color: #42bd56;
+    font-size: 16px;
+}
+.TalionNav-second .fm{
+    border-bottom: 1px solid #f3f3f3;
+    padding: 15px 18px 15px 60px;
+}
+.TalionNav-second .fm input{
+    border-radius: 3px;
+    width: 100%;
+    height: 33px;
+    font-size: 14px;
+    border: 0;
+    background-color: #f3f3f3;
+}
+.TalionNav-second ul{
+    padding-top: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.TalionNav-second li {
+    width: 33.33%;
+}
+.TalionNav-second ul li a{
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.TalionNav-second li strong {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+.TalionNav-second li span {
+    display: block;
+    color: #999;
+    height: 17px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.TalionNav-second .navBottom {
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+}
+.TalionNav-second .navBottom .nav-item {
+    border-top: 1px solid #f3f3f3;
+    padding: 13px 0;
+}
+.TalionNav-second .navBottom .nav-item a:first-child {
+    border-right: 1px solid #e5e5e5;
+}
+.TalionNav-second .navBottom .nav-item a {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #42bd56;
+}
+.dbNav{
+    max-width: 650px;
+    min-width: 325px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 99;
+    margin: 0 auto;
+}
+.dbNav .dbNav-primary{
+    border-bottom: 1px solid#f3f3f3;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 18px;
+    background: #fff;
+    height: 47px;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+.dbNav-primary h1{
+    margin: 0;
+    padding: 0;
+    color: #00b600;
+    font-size: 24px;
+}
+.dbNav-primary nav>*{
+    vertical-align: middle;
+    display: inline-block;
+}
+.dbNav-primary nav li {
+    display: inline-block;
+}
+.dbNav-primary nav li {
+    font-size: 15px;
+    margin-right: 19px;
+}
+.dbNav-primary nav li.movie a{
+    color: #2384E8;
+}
+.dbNav-primary nav li.book a{
+    color: #9F7860;
+}
+.dbNav-primary nav li.status a{
+    color: #E4A813;
+}
+.dbNav-primary nav li.group a{
+    color: #2AB8CC;
+}
+.dbNav-primary nav span{
+    display:block;
+    font-size: 0;
+    background: url("./static/search.png");
+    background-size: cover;
+    width: 24px;
+    height: 18px;
+    margin-top: 4px;
+    float: right;
+}
+

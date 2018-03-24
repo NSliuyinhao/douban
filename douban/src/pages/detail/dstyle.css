@@ -1,0 +1,158 @@
+@import '../../globle.css';
+.Detail{
+    margin-top: 48px;
+    width: 100%;
+    max-width: 650px;
+    background-color: #ffffff;
+}
+.Detail .promo-top-banner{
+    width: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
+    max-width: 650px;
+    text-align: left;
+    position: relative;
+    display: block !important;
+    padding: 0;
+}
+.promo-top-banner .banner-bg {
+    padding-bottom: 21.33333%;
+    position: relative;
+    /*z-index: 10;*/
+}
+.promo-top-banner .banner-bg img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.promo-top-banner .banner-wrapper {
+    position: absolute;
+    left: 18px;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+}
+.promo-top-banner .banner-wrapper .banner-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo-top-banner .promo-title-text {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #2CA532;
+}
+.promo-button{
+    display: inline-block;
+    padding: 0 4px;
+    border-radius: 3px;
+    width: 42%;
+    line-height: 2;
+}
+.promo-top-banner .promo-button{
+    font-size: 13px;
+    font-weight: bold;
+    width: auto;
+    padding: 0 12px;
+    position: relative;
+}
+.download_app{
+    border: 1px solid #42bd56;
+    color: #fff;
+    background: #42bd56;
+}
+.open_app{
+    color: #42bd56;
+    border: 1px solid #42bd56;
+    margin-left: 8px;
+}
+.Detail .card{
+    margin: 0 18px;
+}
+.Detail .card h1{
+    margin: 30px 0 5px;
+    font-size: 24px;
+    line-height: 32px;
+    word-break: break-all;
+    font-weight: normal;
+
+}
+.Detail .card .subject-info{
+    margin-bottom: 30px;
+}
+.Detail .card .subject-info .right{
+    float: right;
+}
+.Detail .card .subject-info .right img{
+    width: 100px;
+}
+.Detail .card .subject-info .rating{
+    font-size: 15px;
+    text-align: center;
+    line-height: 18px;
+}
+.Detail .card .subject-info .rating span {
+    color: #aaa;
+}
+.Detail .card .subject-info .rating .evaluate{
+    margin-left: 30px;
+}
+.Detail .card .subject-info .left{
+    margin-right: 100px;
+}
+.Detail .card .subject-info .meta{
+    color: #494949;
+    margin-top: 15px;
+    padding-right: 24px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.Detail .card .subject-intro{
+    margin-bottom: 30px;
+}
+.Detail .card .subject-intro h2{
+    color: #aaa;
+    margin: 0 0 15px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.Detail .card .subject-intro .bd p{
+    font-size: 15px;
+    color: #494949;
+    line-height: 22px;
+}
+.Detail .card .subject-intro .bd .p_open{
+    word-wrap: break-word;
+    height: 62px;
+    overflow: hidden;
+}
+.Detail .card .celebrities{
+    margin-bottom: 30px;
+}
+.Detail .card .celebrities h2{
+    color: #aaa;
+    font-size: 15px;
+}
+.Detail .card .celebrities .item{
+    width: 75px;
+    font-size: 15px;
+}
+.Detail .card .celebrities .item img{
+    width: 100%;
+}
+.Detail .card .celebrities .item-title {
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: normal;
+    text-align: center;
+    color: #494949;
+    margin-top: 8px;
+}
+.Detail .card .celebrities .role{
+    color: #aaa!important;
+    text-align: center!important;
+}
